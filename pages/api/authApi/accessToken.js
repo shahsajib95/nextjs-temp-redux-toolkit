@@ -33,7 +33,7 @@ const accessToken = async (req, res) => {
         data: {},
       });
 
-    const access_token = createAccessToken({ user_id: user_id });
+    const access_token = createAccessToken({ user_id: 'user_id' });
     res.status(201).json({
       success: true,
       message: "Successfully get user details.",
