@@ -12,7 +12,7 @@ export default function Home() {
     >
       <HeadData />
       <main>
-        <div> Welcome to ShahSajib Template</div>
+        <div> Welcome to <a href="http://shahsajib.me/" target="_blank">ShahSajib</a> Template</div>
       </main>
     </div>
   );
